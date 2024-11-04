@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi, I'm Scotty R. White, a professional software engineer. Welcome to my website.">
+    <meta name="keywords" content="ScottyWhite, Scotty, White, ScottyR.White, ScottyRWhite, SoftwareEngineer, Software, WebDevelopment, SoftwareDevelopment, Website">
+    <meta name="author" content="Scotty R. White">
+    <title>Scotty R. White - Professional Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<nav>
+    <a href="ScottyRWhite.html" class="brand">Scotty R. White</a>
+    <div class="nav-links">
+        <a href="Skills.html">Skills</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Projects.html">Projects</a>
+        <a href="About.html">About</a>
+    </div>
+    <a href="Profile.html" class="profile-link">
+        <img src="images/image1.jpg" alt="Picture of Me" class="profile-image">
+    </a>
+    <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="full-screen-menu">
+        <a href="Skills.html">Skills</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Projects.html">Projects</a>
+        <a href="About.html">About</a>
+    </div>
+</nav>
+
+
+<div class="hero-section">
+    <div class="content-container">
+        <p class="typing-text">Empowering your vision with streamlined software solutions.</p>
+        <a href="Contact.html" class="cta-button">Get a Quote</a>
+        <div class="learn-more">
+            <a href="#about-section" class="arrow-button">
+                <span>Learn more about me</span>
+                <div class="arrow"></div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<section id="about-section" class="about-section">
+    <div class="about-container">
+        <h2><strong>Hi, I'm Scotty R. White.</strong></h2>
+        <p>I am a professional software engineer with a passion for building quality software solutions.</p>
+        <p>When I'm not at the computer, you can find me with family, at the gym, or running my laps around the city!</p>
+
+        <div class="learn-more">
+            <a href="About.html" class="arrow-button">
+                Learn more about Scotty
+                <span class="arrow-right"></span>
+            </a>
+        </div>
+    </div>
+
+    <div class="about-image">
+        <img src="images/MePic.jpg" alt="A picture of me!">
+    </div>
+</section>
+
+
+
+<section class="bottom-hero-section">
+    <div class="content-wrapper">
+        <div class="bottom-left">
+            <h2>Unsure of my abilities?</h2>
+            <p>You've come to the right place. My online portfolio is a one-stop site to offer you the utmost confidence in my work.</p>
+        </div>
+        <div class="bottom-right">
+            <button id="skills-btn" onclick="showContent('skills')">Skills</button>
+            <button id="projects-btn" onclick="showContent('projects')">Projects</button>
+            <div id="content-display">
+                <!-- Content updates here based on button click -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer-hero-section">
+    <div class="content-wrapper">
+        <!-- Left Box: Brand -->
+        <div class="box1">
+            <h1><strong><a href="ScottyRWhite.html" class="brand">Scotty R. White</a></strong></h1>
+            <p>Your trusted software engineer, committed to turning your vision into reality with precision and expertise.</p>
+            <div class="signature">
+                <img src="images/MySignature.png" alt="My Signature">
+            </div>
+        </div>
+        <!-- Middle Columns -->
+        <div class="middle-columns">
+            <div class="column">
+                <h1>Contact</h1>
+                <a href="#contact1" class="nav-link">Email</a>
+                <a href="#contact2" class="nav-link">LinkedIn</a>
+                <a href="#contact3" class="nav-link">GitHub</a>
+                <a href="#contact3" class="nav-link">Phone</a>
+                <h1>General</h1>
+                <a href="#general1" class="nav-link">Privacy Policy</a>
+                <a href="#general2" class="nav-link">Terms of Service</a>
+            </div>
+            <div class="column">
+                <h1>Site Navigator</h1>
+                <a href="#navigator1" class="nav-link">Skills</a>
+                <a href="#navigator2" class="nav-link">Projects</a>
+                <a href="#navigator3" class="nav-link">About</a>
+                <a href="#navigator4" class="nav-link">Contact</a>
+            </div>
+        </div>
+
+        <!-- Right Box: Newsletter Signup -->
+        <div class="box2">
+            <h1>Stay Up to Date</h1>
+            <p>Subscribe to the newsletter to stay up to date with the latest news, updates, and insights.</p>
+            <a href="#newsletter" class="nav-link">Learn more about my newsletter &gt;</a>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>All rights reserved &copy; Scotty R. White 2024</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
